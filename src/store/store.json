@@ -1,102 +1,89 @@
 [
     {
         "id": 1,
-        "name": "RECORD-BOOK",
+        "name": "DEV-COMMERCE",
         "tech" : [
             {
-                "id" : 100,
-                "name" : "React",                
+                "id" : 101,   
+                "name" : "React Js",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
             },
             {
-                "id" : 101,
-                "name" : "Express",        
-                "border" : "border-green-500",
-                "text" : "text-green-500",
-                "color" : "bg-green-500"                
-            },
-            {
-                "id" : 102,
-                "name" : "Mongo DB",             
-                "border" : "border-pink-500",
-                "text" : "text-pink-500",
-                "color" : "bg-pink-500"                
-            },
-            {
-                "id" : 103,
-                "name" : "Framer Motion",           
-                "border" : "border-yellow-500",
-                "text" : "text-yellow-500",
-                "color" : "bg-yellow-500"                
-            }
-        ],
-        "images" : ["r1.png", "r2.png", "r3.png", "r5.png", "r6.png", "r7.png"]        
-    },
-    {
-        "id": 2,
-        "name": "SWIGGY CLONE",
-        "tech" : [
-            {
-                "id" : 104,
-                "name" : "React",                
+                "id" : 102,   
+                "name" : "Python",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
             },
             {
-                "id" : 105,
-                "name" : "Tailwind CSS",                
-                "border" : "border-green-500",
-                "text" : "text-green-500",
-                "color" : "bg-green-500"                
-            },
-            {
-                "id" : 106,
-                "name" : "Chakra UI",             
-                "border" : "border-pink-500",
-                "text" : "text-pink-500",
-                "color" : "bg-pink-500"                
-            },
-            {
-                "id" : 107,
-                "name" : "Framer Motion",        
-                "border" : "border-yellow-500",
-                "text" : "text-yellow-500",
-                "color" : "bg-yellow-500"                
-            }
-        ],     
-        "images" : ["s1.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png"]        
-    },
-    {
-        "id": 3,
-        "name": "TECHTRONICS ECOMMERCE",
-        "tech" : [
-            {
-                "id" : 108,   
-                "name" : "Next Js",                
+                "id" : 103,   
+                "name" : "Flask",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
             },
             {
-                "id" : 109,   
+                "id" : 104,   
+                "name" : "Machine Learning",                
+                "border" : "border-red-500",
+                "text" : "text-red-500",
+                "color" : "bg-red-500"                
+            },
+            {
+                "id" : 105,   
                 "name" : "Tailwind CSS",      
                 "border" : "border-green-500",
                 "text" : "text-green-500",
                 "color" : "bg-green-500"                
             }            
         ],
-        "images" : ["t1.png", "t2.png", "t3.png", "t4.png", "t5.png", "t6.png"]        
+        "images" : ["t1.png", "t2.png", "t3.png", "t4.png", "t5.png", "t6.png"],   
+        "github" : "https://github.com/Devrastogii/dev-commerce"
     },
     {
-        "id": 4,
-        "name": "MONEY TRACKER",
+        "id": 2,
+        "name": "RECORD-BOOK",
+        "tech" : [
+            {
+                "id" : 106,
+                "name" : "React",                
+                "border" : "border-red-500",
+                "text" : "text-red-500",
+                "color" : "bg-red-500"                
+            },
+            {
+                "id" : 107,
+                "name" : "Express",        
+                "border" : "border-green-500",
+                "text" : "text-green-500",
+                "color" : "bg-green-500"                
+            },
+            {
+                "id" : 108,
+                "name" : "Mongo DB",             
+                "border" : "border-pink-500",
+                "text" : "text-pink-500",
+                "color" : "bg-pink-500"                
+            },
+            {
+                "id" : 109,
+                "name" : "Framer Motion",           
+                "border" : "border-yellow-500",
+                "text" : "text-yellow-500",
+                "color" : "bg-yellow-500"                
+            }
+        ],
+        "images" : ["r1.png", "r2.png", "r3.png", "r5.png", "r6.png", "r7.png"] 
+    },
+    {
+        "id": 3,
+        "name": "SWIGGY CLONE",
         "tech" : [
             {
                 "id" : 110,
-                "name" : "Next Js",                
+                "name" : "React",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
@@ -110,34 +97,71 @@
             },
             {
                 "id" : 112,
+                "name" : "Chakra UI",             
+                "border" : "border-pink-500",
+                "text" : "text-pink-500",
+                "color" : "bg-pink-500"                
+            },
+            {
+                "id" : 113,
+                "name" : "Framer Motion",        
+                "border" : "border-yellow-500",
+                "text" : "text-yellow-500",
+                "color" : "bg-yellow-500"                
+            }
+        ],     
+        "images" : ["s1.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png"],
+        "live" : "https://dev-swiggy-clone.netlify.app/"       
+    },    
+    {
+        "id": 5,
+        "name": "MONEY TRACKER",
+        "tech" : [
+            {
+                "id" : 114,
+                "name" : "Next Js",                
+                "border" : "border-red-500",
+                "text" : "text-red-500",
+                "color" : "bg-red-500"                
+            },
+            {
+                "id" : 115,
+                "name" : "Tailwind CSS",                
+                "border" : "border-green-500",
+                "text" : "text-green-500",
+                "color" : "bg-green-500"                
+            },
+            {
+                "id" : 116,
                 "name" : "Charts Js",             
                 "border" : "border-pink-500",
                 "text" : "text-pink-500",
                 "color" : "bg-pink-500"                
             }           
         ], 
-        "images" : ["m1.png", "m2.png", "m3.png", "m4.png", "m5.png", "m6.png", "m7.png", "m8.png"]        
+        "images" : ["m1.png", "m2.png", "m3.png", "m4.png", "m5.png", "m6.png", "m7.png", "m8.png"],
+        "github" : "https://github.com/Devrastogii/money-tracker"       
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "COUNT ME",
         "tech" : [
             {
-                "id" : 113, 
+                "id" : 117, 
                 "name" : "HTML",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
             },
             {
-                "id" : 114,
+                "id" : 118,
                 "name" : "CSS",                
                 "border" : "border-green-500",
                 "text" : "text-green-500",
                 "color" : "bg-green-500"                
             },
             {
-                "id" : 115,
+                "id" : 119,
                 "name" : "JavaScript",             
                 "border" : "border-pink-500",
                 "text" : "text-pink-500",
@@ -147,66 +171,68 @@
         "images" : ["c1.png", "c2.png"]        
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "BOOKME TRAVEL",
         "tech" : [
             {
-                "id" : 116,
+                "id" : 120,
                 "name" : "HTML",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
             },
             {
-                "id" : 117,
+                "id" : 121,
                 "name" : "CSS",                
                 "border" : "border-green-500",
                 "text" : "text-green-500",
                 "color" : "bg-green-500"                
             },
             {
-                "id" : 118,
+                "id" : 122,
                 "name" : "JavaScript",             
                 "border" : "border-pink-500",
                 "text" : "text-pink-500",
                 "color" : "bg-pink-500"                
             }           
         ],
-        "images" : ["b1.png", "b2.png", "b3.png", "b4.png", "b5.png", "b6.png", "b7.png"]        
+        "images" : ["b1.png", "b2.png", "b3.png", "b4.png", "b5.png", "b6.png", "b7.png"],
+        "github" : "https://github.com/Devrastogii/BookMe"       
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "GOOGLE KEEP",
         "tech" : [
             {
-                "id" : 119,
+                "id" : 123,
                 "name" : "React",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
             }        
         ],
-        "images" : ["g.png"]        
+        "images" : ["g.png"]       
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "GIVE A PASSWORD",
         "tech" : [
             {
-                "id" : 120,
+                "id" : 124,
                 "name" : "React",                
                 "border" : "border-red-500",
                 "text" : "text-red-500",
                 "color" : "bg-red-500"                
             },
             {
-                "id" : 121,
+                "id" : 125,
                 "name" : "Tailwind CSS",                
                 "border" : "border-green-500",
                 "text" : "text-green-500",
                 "color" : "bg-green-500"
             }              
         ],
-        "images" : ["p.png"]        
+        "images" : ["p.png"],
+        "live" : "https://dev-password-generator.netlify.app/"        
     }
 ]

@@ -42,7 +42,7 @@ const Experience = () => {
     contentStyle={{ background: '#fff', color: '#1b1818', borderRadius: 20 }}   
   >
    <h3 className='font-bold text-[#000000]'>PRESENT</h3>
-    <h3 className="mt-2 text-xl font-bold">Currently, I am looking for web development jobs or internship.</h3>  
+    <h3 className="mt-2 text-xl font-bold">Currently, I am looking for web development / machine learning jobs or internship.</h3>  
   </VerticalTimelineElement>
 </VerticalTimeline>
           </div>

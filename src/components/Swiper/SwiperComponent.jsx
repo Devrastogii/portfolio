@@ -1,20 +1,11 @@
-import React, { useEffect, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-// import "swiper/css/navigation";
-
 import "./styles.css";
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function SwiperComponent({images1}) {
-
-  // console.log(images1);
 
   return (
     <>
@@ -39,47 +30,6 @@ export default function SwiperComponent({images1}) {
         </SwiperSlide> 
           )
         })}
-{/* 
-{images1.map((image) => (
-          <SwiperSlide>
-          <img src={image} />
-          {console.log(image)}
-        </SwiperSlide>           
-      ))} */}
-
-        {/* {images1.map((image) => (
-          <SwiperSlide>
-          <img src={image} />
-        </SwiperSlide>           
-      ))} */}
-       
-        {/* <SwiperSlide>
-            <img src={props.img1} alt="" />
-        </SwiperSlide>        
-        <SwiperSlide>
-            <img src={props.img2} alt="" />
-        </SwiperSlide>        
-
-        
-          <SwiperSlide>
-            <img src={props.img3} alt="" />
-        </SwiperSlide>                   
-        <SwiperSlide>
-            <img src={props.img4} alt="" />
-        </SwiperSlide>        
-        <SwiperSlide>
-            <img src={props.img5} alt="" />
-        </SwiperSlide>        
-        <SwiperSlide>
-            <img src={props.img6} alt="" />
-        </SwiperSlide>        
-        <SwiperSlide>
-            <img src={props.img7} alt="" />
-        </SwiperSlide>        
-        <SwiperSlide>
-            <img src={props.img8} alt="" />
-        </SwiperSlide>           */}
-              
       </Swiper>
     </div>      
     </>

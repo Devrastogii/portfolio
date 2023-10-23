@@ -12,11 +12,11 @@ import express from '../../images/express.png'
 import mongo from '../../images/mongo.png'
 import graph from '../../images/graphql.png'
 import framer from '../../images/framer.png'
-import three from '../../images/three.png'
+import ml from '../../images/ml.png'
 import tailwind from '../../images/tailwind.png'
 import chakra from '../../images/chakra.jpg'
-import material from '../../images/material.png'
-import gsap from '../../images/gsap.png'
+import flask from '../../images/flask.png'
+import python from '../../images/python.png'
 import swiper from '../../images/swiper.png'
 import p5 from '../../images/p5.png'
 import photoshop from '../../images/photoshop.png'
@@ -44,6 +44,11 @@ const Card = () => {
 <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-yellow-400'>
                   <img src={js} alt="js" className='w-16 h-11' />
               </motion.div> </Tilt>
+
+              <Tilt>
+<motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-green-200'>
+                  <img src={python} alt="python" className='w-10 h-10' />
+              </motion.div> </Tilt>              
 
               <Tilt>
 <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-blue-400'>
@@ -76,9 +81,19 @@ const Card = () => {
               </motion.div> </Tilt>
 
               <Tilt>
+<motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-blue-500'>
+                  <img src={flask} alt="flask" className='w-10 h-10' />
+              </motion.div> </Tilt>
+
+              <Tilt>
+<motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-black'>
+                  <img src={ml} alt="ml" className='w-10 h-10' />
+              </motion.div> </Tilt> 
+
+              <Tilt>
 <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-green-600'>
                   <img src={mongo} alt="mongodb" className='w-12 h-10' />
-              </motion.div> </Tilt>
+              </motion.div> </Tilt>              
 
               <Tilt>
 <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-pink-500'>
@@ -93,27 +108,12 @@ const Card = () => {
               <Tilt>
 <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-teal-300'>
                   <img src={chakra} alt="chakra" className='w-10 h-10' />
-              </motion.div> </Tilt>
-
-              <Tilt>
-<motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-black'>
-                  <img src={three} alt="three" className='w-10 h-10' />
-              </motion.div> </Tilt>
-
-              <Tilt>
-<motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-green-200'>
-                  <img src={gsap} alt="gsap" className='w-10 h-10' />
-              </motion.div> </Tilt>
+              </motion.div> </Tilt>                           
 
               <Tilt>
 <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-pink-500'>
                   <img src={framer} alt="framer" className='w-10 h-10' />
-              </motion.div> </Tilt>
-
-              <Tilt>
-<motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-blue-500'>
-                  <img src={material} alt="material" className='w-10 h-10' />
-              </motion.div> </Tilt>
+              </motion.div> </Tilt>            
 
               <Tilt>
 <motion.div whileHover={{scale: 1.2}} transition={{duration: 0.6}} className='w-16 h-16 cursor-pointer flex justify-center items-center rounded-full bg-white shadow-2xl shadow-blue-500'>

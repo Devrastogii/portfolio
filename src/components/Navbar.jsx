@@ -36,7 +36,7 @@ const Navbar = () => {
                         <div className='pl-7'><Link to={'#experience'} smooth className='hover:text-white'>Experience</Link></div>                        
                         <div className='pl-7'><Link to={'#contact'} smooth className='hover:text-white'>Contact</Link></div> 
                         <div className='pl-7 -mt-1'>
-                            <a href='https://drive.google.com/file/d/1-YQU4lq8YmFXzErOU8OyFghrFVcL7Zj1/view?usp=sharing' target='_blank' className='w-[190px] h-[40px] border-[3px] flex justify-center items-center border-[#00D1FF] font-medium text-[#00D1FF] hover:bg-[#00D1FF] hover:text-white tracking-widest transition ease-in btn_styling'>RESUME</a>
+                            <a href='https://drive.google.com/file/d/1j0WsHxmYTZ6TItMYzchXz0SX2rwM41Rs/view?usp=sharing' target='_blank' className='w-[190px] h-[40px] border-[3px] flex justify-center items-center border-[#00D1FF] font-medium text-[#00D1FF] hover:bg-[#00D1FF] hover:text-white tracking-widest transition ease-in btn_styling'>RESUME</a>
                         </div>                                                                       
                     </div>
 
